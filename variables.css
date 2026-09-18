@@ -1,0 +1,168 @@
+/* =========================================================
+   AL MAGHFLAK — DESIGN VARIABLES
+   Green & White Juice Bar Theme
+   ========================================================= */
+
+:root {
+
+    /* =========================
+       BRAND COLORS
+       ========================= */
+
+    --color-primary: #168A45;
+    --color-primary-dark: #0B5D2A;
+
+    /* Light green used for backgrounds */
+    --color-green-light: #EAF7EE;
+    --color-green-soft: #F3FAF5;
+
+    /* Fruit accents */
+    --color-mango: #F6B93B;
+    --color-strawberry: #E8453C;
+
+
+    /* =========================
+       BACKGROUNDS
+       ========================= */
+
+    --color-bg: #FAFCFA;
+    --color-bg-white: #FFFFFF;
+
+    --color-card: #FFFFFF;
+
+    --color-footer: #0B5D2A;
+
+
+    /* =========================
+       TEXT
+       ========================= */
+
+    --color-text: #18251D;
+    --color-text-dark: #0B5D2A;
+
+    --color-text-muted: #718078;
+
+    --color-text-light: #FFFFFF;
+
+
+    /* =========================
+       BORDERS
+       ========================= */
+
+    --color-border: #E2EBE5;
+
+    --color-border-light: #EEF3EF;
+
+
+    /* =========================
+       TYPOGRAPHY
+       ========================= */
+
+    --font-heading: "Poppins", sans-serif;
+    --font-body: "Inter", sans-serif;
+
+
+    /* =========================
+       FONT SIZES
+       ========================= */
+
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.125rem;
+
+    --fs-xl: 1.5rem;
+    --fs-2xl: 2rem;
+    --fs-3xl: 2.75rem;
+    --fs-4xl: 3.5rem;
+
+    --fs-hero: clamp(3rem, 7vw, 6.5rem);
+
+
+    /* =========================
+       FONT WEIGHTS
+       ========================= */
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-extrabold: 800;
+
+
+    /* =========================
+       SPACING
+       ========================= */
+
+    --space-xs: 0.5rem;
+    --space-sm: 0.75rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --space-3xl: 4rem;
+
+    --section-padding: 90px;
+
+
+    /* =========================
+       BORDER RADIUS
+       ========================= */
+
+    --radius-sm: 8px;
+    --radius-md: 14px;
+    --radius-lg: 20px;
+    --radius-xl: 28px;
+
+    --radius-pill: 999px;
+
+
+    /* =========================
+       SHADOWS
+       ========================= */
+
+    --shadow-sm:
+        0 4px 15px rgba(11, 93, 42, 0.06);
+
+    --shadow-md:
+        0 10px 30px rgba(11, 93, 42, 0.09);
+
+    --shadow-lg:
+        0 20px 50px rgba(11, 93, 42, 0.13);
+
+
+    /* =========================
+       TRANSITIONS
+       ========================= */
+
+    --transition-fast: 180ms ease;
+
+    --transition-normal:
+        300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    --transition-slow:
+        500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    /* =========================
+       CONTAINER
+       ========================= */
+
+    --container-width: 1200px;
+
+    --container-padding: 24px;
+}
+
+
+/* =========================================================
+   RESPONSIVE VARIABLES
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    :root {
+        --section-padding: 65px;
+        --container-padding: 16px;
+    }
+
+}
