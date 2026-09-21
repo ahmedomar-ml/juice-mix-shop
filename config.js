@@ -50,7 +50,7 @@ const SHOP_CONFIG = {
         description:
             "We believe great drinks start with great ingredients. We carefully select fresh fruits and prepare every drink daily to give you a delicious and refreshing taste.",
 
-        image: "images/WhatsApp Image 2026-09-07 at 6.25.38 PM.jpeg",
+        image: "images/about.jpg",
 
         points: [
             "Fresh ingredients",
